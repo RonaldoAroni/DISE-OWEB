@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Horarios de misa - Parroquia Inmaculada Concepción Sicuani">
+  <title>Horarios - Parroquia Inmaculada Concepción</title>
+  <link rel="icon" href="svg/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header small">
+    <div class="container header-inner">
+      <img src="imagenes/logo2.jpg" alt="Logo Parroquia" class="logo" />
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="horarios.html" class="active">Horarios</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Horarios de Misa y Confesiones</h1>
+
+    <section class="schedule">
+      <table class="tabla-horarios" aria-label="Horarios de misa">
+        <thead>
+          <tr>
+            <th>Día</th>
+            <th>Horario</th>
+            <th>Lugar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lunes a Viernes</td>
+            <td>7:00 AM</td>
+            <td>Pampacuhco</td>
+          </tr>
+          <tr>
+            <td>Sábados</td>
+            <td>7:00 AM</td>
+            <td>Templo Parroquial</td>
+          </tr>
+          <tr>
+            <td>Domingos</td>
+            <td>7:00 AM</td>
+            <td>Pampacucho</td>
+          </tr>
+          <tr>
+            <td>Domingos</td>
+            <td>8:30 AM</td>
+            <td>Templo Parroquial</td>
+          </tr>
+          <tr>
+            <td>Domingos</td>
+            <td>10:00 AM</td>
+            <td>Templo Parroquial</td>
+          </tr>
+          <tr>
+            <td>Domingos</td>
+            <td>12:00 MD</td>
+            <td>Templo Parroquial</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="confesiones">
+        <h3>Confesiones</h3>
+        <p>Viernes: 4:00 PM</p>
+      </div>
+    </section>
+
+    <section class="note">
+      <h3>Nota</h3>
+      <p>Los horarios pueden cambiar en fiestas patronales o celebraciones especiales. Consulte en la parroquia para mas informacion.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year2"></span> Parroquia Inmaculada Concepción - Sicuani</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year2').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
